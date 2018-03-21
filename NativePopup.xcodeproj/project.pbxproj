@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE4CECF61ED1171400D5DB31 /* AnimatableCrossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4CECF51ED1171400D5DB31 /* AnimatableCrossView.swift */; };
-		FE8533901EAC7C92004BB756 /* NativePopup.h in Headers */ = {isa = PBXBuildFile; fileRef = FE85338E1EAC7C92004BB756 /* NativePopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEB0316D1ECFF6770039A1C6 /* Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB0316C1ECFF6770039A1C6 /* Preset.swift */; };
-		FEB031711ECFF6A30039A1C6 /* Bundle.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB031701ECFF6A30039A1C6 /* Bundle.extension.swift */; };
-		FEB031731ECFF6E00039A1C6 /* InitialEffectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB031721ECFF6E00039A1C6 /* InitialEffectType.swift */; };
-		FEB031751ECFFB6C0039A1C6 /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB031741ECFFB6C0039A1C6 /* Animatable.swift */; };
-		FEB031771ECFFE120039A1C6 /* AnimatableDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB031761ECFFE120039A1C6 /* AnimatableDoneView.swift */; };
-		FEB031791ED014D70039A1C6 /* HasAnimatablePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB031781ED014D70039A1C6 /* HasAnimatablePath.swift */; };
+		03217E472062769E00EE4F7F /* UIView.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E382062769E00EE4F7F /* UIView.extension.swift */; };
+		03217E482062769E00EE4F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03217E392062769E00EE4F7F /* Assets.xcassets */; };
+		03217E492062769E00EE4F7F /* Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E3A2062769E00EE4F7F /* Preset.swift */; };
+		03217E4A2062769E00EE4F7F /* UIImage.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E3B2062769E00EE4F7F /* UIImage.extension.swift */; };
+		03217E4B2062769E00EE4F7F /* NativePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E3C2062769E00EE4F7F /* NativePopup.swift */; };
+		03217E4C2062769E00EE4F7F /* AnimatableDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E3D2062769E00EE4F7F /* AnimatableDoneView.swift */; };
+		03217E4D2062769E00EE4F7F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03217E3E2062769E00EE4F7F /* Info.plist */; };
+		03217E4E2062769E00EE4F7F /* InitialEffectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E3F2062769E00EE4F7F /* InitialEffectType.swift */; };
+		03217E4F2062769E00EE4F7F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E402062769E00EE4F7F /* Extension.swift */; };
+		03217E502062769E00EE4F7F /* AnimatableCrossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E412062769E00EE4F7F /* AnimatableCrossView.swift */; };
+		03217E512062769E00EE4F7F /* HasAnimatablePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E422062769E00EE4F7F /* HasAnimatablePath.swift */; };
+		03217E522062769E00EE4F7F /* Bundle.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E432062769E00EE4F7F /* Bundle.extension.swift */; };
+		03217E532062769E00EE4F7F /* UIImageConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E442062769E00EE4F7F /* UIImageConvertible.swift */; };
+		03217E542062769E00EE4F7F /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03217E452062769E00EE4F7F /* Animatable.swift */; };
+		03217E552062769E00EE4F7F /* NativePopup.h in Headers */ = {isa = PBXBuildFile; fileRef = 03217E462062769E00EE4F7F /* NativePopup.h */; };
 		FECA87BA1EAC7CCF00D07CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA87B91EAC7CCF00D07CB1 /* AppDelegate.swift */; };
 		FECA87BC1EAC7CCF00D07CB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA87BB1EAC7CCF00D07CB1 /* ViewController.swift */; };
 		FECA87BF1EAC7CCF00D07CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECA87BD1EAC7CCF00D07CB1 /* Main.storyboard */; };
 		FECA87C11EAC7CCF00D07CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECA87C01EAC7CCF00D07CB1 /* Assets.xcassets */; };
 		FECA87C41EAC7CCF00D07CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECA87C21EAC7CCF00D07CB1 /* LaunchScreen.storyboard */; };
-		FECA87D81EAC7D9E00D07CB1 /* NativePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA87D71EAC7D9E00D07CB1 /* NativePopup.swift */; };
 		FECA87D91EAC87B700D07CB1 /* NativePopup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE85338B1EAC7C92004BB756 /* NativePopup.framework */; };
 		FECA87DA1EAC87B700D07CB1 /* NativePopup.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE85338B1EAC7C92004BB756 /* NativePopup.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FECA87DF1EAC94B300D07CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECA87DE1EAC94B300D07CB1 /* Assets.xcassets */; };
-		FECA87E31EACC7F000D07CB1 /* UIImageConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA87E21EACC7F000D07CB1 /* UIImageConvertible.swift */; };
-		FECA87F01EADB80700D07CB1 /* UIView.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA87EF1EADB80700D07CB1 /* UIView.extension.swift */; };
-		FECA87F21EADBA3C00D07CB1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA87F11EADBA3C00D07CB1 /* Extension.swift */; };
-		FECA87F51EADBD7F00D07CB1 /* UIImage.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA87F41EADBD7F00D07CB1 /* UIImage.extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,16 +56,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FE4CECF51ED1171400D5DB31 /* AnimatableCrossView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableCrossView.swift; sourceTree = "<group>"; };
+		03217E382062769E00EE4F7F /* UIView.extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.extension.swift; sourceTree = "<group>"; };
+		03217E392062769E00EE4F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03217E3A2062769E00EE4F7F /* Preset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preset.swift; sourceTree = "<group>"; };
+		03217E3B2062769E00EE4F7F /* UIImage.extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.extension.swift; sourceTree = "<group>"; };
+		03217E3C2062769E00EE4F7F /* NativePopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativePopup.swift; sourceTree = "<group>"; };
+		03217E3D2062769E00EE4F7F /* AnimatableDoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableDoneView.swift; sourceTree = "<group>"; };
+		03217E3E2062769E00EE4F7F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03217E3F2062769E00EE4F7F /* InitialEffectType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialEffectType.swift; sourceTree = "<group>"; };
+		03217E402062769E00EE4F7F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		03217E412062769E00EE4F7F /* AnimatableCrossView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableCrossView.swift; sourceTree = "<group>"; };
+		03217E422062769E00EE4F7F /* HasAnimatablePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasAnimatablePath.swift; sourceTree = "<group>"; };
+		03217E432062769E00EE4F7F /* Bundle.extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.extension.swift; sourceTree = "<group>"; };
+		03217E442062769E00EE4F7F /* UIImageConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageConvertible.swift; sourceTree = "<group>"; };
+		03217E452062769E00EE4F7F /* Animatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animatable.swift; sourceTree = "<group>"; };
+		03217E462062769E00EE4F7F /* NativePopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativePopup.h; sourceTree = "<group>"; };
 		FE85338B1EAC7C92004BB756 /* NativePopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NativePopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE85338E1EAC7C92004BB756 /* NativePopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativePopup.h; sourceTree = "<group>"; };
-		FE85338F1EAC7C92004BB756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FEB0316C1ECFF6770039A1C6 /* Preset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preset.swift; sourceTree = "<group>"; };
-		FEB031701ECFF6A30039A1C6 /* Bundle.extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.extension.swift; sourceTree = "<group>"; };
-		FEB031721ECFF6E00039A1C6 /* InitialEffectType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialEffectType.swift; sourceTree = "<group>"; };
-		FEB031741ECFFB6C0039A1C6 /* Animatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animatable.swift; sourceTree = "<group>"; };
-		FEB031761ECFFE120039A1C6 /* AnimatableDoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableDoneView.swift; sourceTree = "<group>"; };
-		FEB031781ED014D70039A1C6 /* HasAnimatablePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasAnimatablePath.swift; sourceTree = "<group>"; };
 		FECA87B71EAC7CCF00D07CB1 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECA87B91EAC7CCF00D07CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FECA87BB1EAC7CCF00D07CB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,12 +79,6 @@
 		FECA87C01EAC7CCF00D07CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FECA87C31EAC7CCF00D07CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FECA87C51EAC7CCF00D07CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FECA87D71EAC7D9E00D07CB1 /* NativePopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativePopup.swift; sourceTree = "<group>"; };
-		FECA87DE1EAC94B300D07CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FECA87E21EACC7F000D07CB1 /* UIImageConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageConvertible.swift; sourceTree = "<group>"; };
-		FECA87EF1EADB80700D07CB1 /* UIView.extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.extension.swift; sourceTree = "<group>"; };
-		FECA87F11EADBA3C00D07CB1 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		FECA87F41EADBD7F00D07CB1 /* UIImage.extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,17 +100,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE4CECF91ED11A5500D5DB31 /* Animatable */ = {
-			isa = PBXGroup;
-			children = (
-				FEB031741ECFFB6C0039A1C6 /* Animatable.swift */,
-				FEB031781ED014D70039A1C6 /* HasAnimatablePath.swift */,
-				FE4CECF51ED1171400D5DB31 /* AnimatableCrossView.swift */,
-				FEB031761ECFFE120039A1C6 /* AnimatableDoneView.swift */,
-			);
-			path = Animatable;
-			sourceTree = "<group>";
-		};
 		FE8533811EAC7C92004BB756 = {
 			isa = PBXGroup;
 			children = (
@@ -131,15 +121,21 @@
 		FE85338D1EAC7C92004BB756 /* NativePopup */ = {
 			isa = PBXGroup;
 			children = (
-				FE4CECF91ED11A5500D5DB31 /* Animatable */,
-				FECA87F31EADBC2500D07CB1 /* Extensions */,
-				FECA87DE1EAC94B300D07CB1 /* Assets.xcassets */,
-				FE85338F1EAC7C92004BB756 /* Info.plist */,
-				FEB031721ECFF6E00039A1C6 /* InitialEffectType.swift */,
-				FE85338E1EAC7C92004BB756 /* NativePopup.h */,
-				FECA87D71EAC7D9E00D07CB1 /* NativePopup.swift */,
-				FEB0316C1ECFF6770039A1C6 /* Preset.swift */,
-				FECA87E21EACC7F000D07CB1 /* UIImageConvertible.swift */,
+				03217E452062769E00EE4F7F /* Animatable.swift */,
+				03217E412062769E00EE4F7F /* AnimatableCrossView.swift */,
+				03217E3D2062769E00EE4F7F /* AnimatableDoneView.swift */,
+				03217E392062769E00EE4F7F /* Assets.xcassets */,
+				03217E432062769E00EE4F7F /* Bundle.extension.swift */,
+				03217E402062769E00EE4F7F /* Extension.swift */,
+				03217E422062769E00EE4F7F /* HasAnimatablePath.swift */,
+				03217E3E2062769E00EE4F7F /* Info.plist */,
+				03217E3F2062769E00EE4F7F /* InitialEffectType.swift */,
+				03217E462062769E00EE4F7F /* NativePopup.h */,
+				03217E3C2062769E00EE4F7F /* NativePopup.swift */,
+				03217E3A2062769E00EE4F7F /* Preset.swift */,
+				03217E3B2062769E00EE4F7F /* UIImage.extension.swift */,
+				03217E442062769E00EE4F7F /* UIImageConvertible.swift */,
+				03217E382062769E00EE4F7F /* UIView.extension.swift */,
 			);
 			path = NativePopup;
 			sourceTree = "<group>";
@@ -157,17 +153,6 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		FECA87F31EADBC2500D07CB1 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				FEB031701ECFF6A30039A1C6 /* Bundle.extension.swift */,
-				FECA87F11EADBA3C00D07CB1 /* Extension.swift */,
-				FECA87F41EADBD7F00D07CB1 /* UIImage.extension.swift */,
-				FECA87EF1EADB80700D07CB1 /* UIView.extension.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -175,7 +160,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE8533901EAC7C92004BB756 /* NativePopup.h in Headers */,
+				03217E552062769E00EE4F7F /* NativePopup.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,8 +216,8 @@
 				TargetAttributes = {
 					FE85338A1EAC7C92004BB756 = {
 						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
 					};
 					FECA87B61EAC7CCF00D07CB1 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -264,7 +249,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FECA87DF1EAC94B300D07CB1 /* Assets.xcassets in Resources */,
+				03217E4D2062769E00EE4F7F /* Info.plist in Resources */,
+				03217E482062769E00EE4F7F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,18 +271,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FECA87F01EADB80700D07CB1 /* UIView.extension.swift in Sources */,
-				FECA87F51EADBD7F00D07CB1 /* UIImage.extension.swift in Sources */,
-				FEB031711ECFF6A30039A1C6 /* Bundle.extension.swift in Sources */,
-				FEB031731ECFF6E00039A1C6 /* InitialEffectType.swift in Sources */,
-				FEB031771ECFFE120039A1C6 /* AnimatableDoneView.swift in Sources */,
-				FEB031791ED014D70039A1C6 /* HasAnimatablePath.swift in Sources */,
-				FEB031751ECFFB6C0039A1C6 /* Animatable.swift in Sources */,
-				FECA87E31EACC7F000D07CB1 /* UIImageConvertible.swift in Sources */,
-				FECA87F21EADBA3C00D07CB1 /* Extension.swift in Sources */,
-				FECA87D81EAC7D9E00D07CB1 /* NativePopup.swift in Sources */,
-				FEB0316D1ECFF6770039A1C6 /* Preset.swift in Sources */,
-				FE4CECF61ED1171400D5DB31 /* AnimatableCrossView.swift in Sources */,
+				03217E4A2062769E00EE4F7F /* UIImage.extension.swift in Sources */,
+				03217E542062769E00EE4F7F /* Animatable.swift in Sources */,
+				03217E4E2062769E00EE4F7F /* InitialEffectType.swift in Sources */,
+				03217E522062769E00EE4F7F /* Bundle.extension.swift in Sources */,
+				03217E4F2062769E00EE4F7F /* Extension.swift in Sources */,
+				03217E492062769E00EE4F7F /* Preset.swift in Sources */,
+				03217E472062769E00EE4F7F /* UIView.extension.swift in Sources */,
+				03217E4B2062769E00EE4F7F /* NativePopup.swift in Sources */,
+				03217E4C2062769E00EE4F7F /* AnimatableDoneView.swift in Sources */,
+				03217E502062769E00EE4F7F /* AnimatableCrossView.swift in Sources */,
+				03217E532062769E00EE4F7F /* UIImageConvertible.swift in Sources */,
+				03217E512062769E00EE4F7F /* HasAnimatablePath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +445,9 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -468,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mono0926.NativePopup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -479,7 +468,9 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -488,6 +479,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mono0926.NativePopup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 			};
